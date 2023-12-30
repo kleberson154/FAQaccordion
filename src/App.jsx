@@ -12,17 +12,29 @@ function App() {
         />
         <div className="boxResponsive">
           <Faq />
-        </div>
-        <div className="attribution">
-          Challenge by{' '}
-          <a
-            href="https://www.frontendmentor.io?ref=challenge"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Frontend Mentor
-          </a>
-          . Coded by <a href="#">Your Name Here</a>.
+          <div className="attribution">
+            <div className="mentor">
+              Challenge by{' '}
+              <a
+                href="https://www.frontendmentor.io?ref=challenge"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Frontend Mentor
+              </a>
+              .
+            </div>{' '}
+            <div className="create">
+              Coded by{' '}
+              <a
+                href="https://github.com/kleberson154"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Kleberson A.
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </>

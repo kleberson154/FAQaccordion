@@ -8,14 +8,14 @@ function Faq() {
         <h1 className="title">FAQs</h1>
       </div>
       <div className="accordion accordion-flush" id="accordionFlushExample">
-        <div className="accordion-item">
+        <div className="accordion-item ">
           <h2 className="accordion-header">
             <button
-              className="accordion-button collapsed"
+              className="accordion-button accordion-button-icon collapsed"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#flush-collapseOne"
-              aria-expanded="false"
+              aria-expanded="true"
               aria-controls="flush-collapseOne"
             >
               What is Frontend Mentor, and how will it help me?
@@ -23,8 +23,8 @@ function Faq() {
           </h2>
           <div
             id="flush-collapseOne"
-            className="accordion-collapse collapse"
-            data-bs-parent="#accordionFlushExample"
+            className="accordion-collapse collapse show"
+            data-bs-parent="#17e717ordionFlushExample"
           >
             <div className="accordion-body">
               Frontend Mentor offers realistic coding challenges to help
