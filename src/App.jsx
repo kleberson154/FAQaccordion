@@ -10,7 +10,20 @@ function App() {
           src={imgBackground}
           alt="background image"
         />
-        <Faq />
+        <div className="boxResponsive">
+          <Faq />
+        </div>
+        <div className="attribution">
+          Challenge by{' '}
+          <a
+            href="https://www.frontendmentor.io?ref=challenge"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Frontend Mentor
+          </a>
+          . Coded by <a href="#">Your Name Here</a>.
+        </div>
       </div>
     </>
   )

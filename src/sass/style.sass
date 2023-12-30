@@ -1,4 +1,6 @@
-@import '../node_modules/bootstrap/scss/bootstrap'
+// Import all of Bootstrap's CSS
+@import "bootstrap/scss/bootstrap"
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap')
 
 $White: hsl(0, 0%, 100%)
 $Lightpink: hsl(275, 100%, 97%)
@@ -10,11 +12,41 @@ $Darkpurple: hsl(292, 42%, 14%)
   margin: 0
   padding: 0
   box-sizing: border-box
+  font-family: 'Work Sans', sans-serif
 
 
 body
   background-color: $Lightpink
+  
 
 .imgBackground
   width: 100%
   background-size: cover
+
+.boxResponsive
+  position: relative
+  top: -15vh
+  display: flex
+  justify-content: center
+
+.boxFaq
+  width: 700px
+  height: 500px
+  background-color: $White
+  border-radius: 25px
+  display: flex
+  flex-direction: column
+  justify-content: start
+  padding: 40px 25px 20px 25px
+
+.boxTitle
+  display: flex
+  text-align: center
+  align-items: center
+  gap: 20px  
+
+.title
+  margin: 0
+  font-weight: 700
+  color: $Darkpurple
+  font-size: 56px
